@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="#000000"
+    android:gravity="center"
+    tools:context=".CostBarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="TOTAL : "
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/cost_show"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"/>
+
+</LinearLayout>
